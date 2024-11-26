@@ -23,7 +23,7 @@ public class BeforeAll {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        baseURL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+        baseURL = "https://www.saucedemo.com/";
         driver.get(baseURL);
 
     }
